@@ -1,0 +1,63 @@
+# Display Project Title
+print("=" * 20)
+print("              QUIZ SYSTEM")
+print("=" * 20)
+
+score = 0 # Variable Initialization
+
+# Question 1
+print("\nQuestion 1")
+print("What is the capital of India?")
+print("A. Mumbai")
+print("B. Delhi")
+print("C. Chennai")
+print("D. Kolkata")
+
+answer = input("Enter Your Answer: ")
+
+if answer == "B" or answer == "b":
+    print("Correct Answer!")
+    score = score + 1
+else:
+    print("Wrong Answer!")
+
+# Question 2
+print("\nQuestion 2")
+print("Which language is used for Python programming?")
+print("A. Python")
+print("B. HTML")
+print("C. CSS")
+print("D. SQL")
+
+answer = input("Enter Your Answer: ")
+
+if answer == "A" or answer == "a":
+    print("Correct Answer!")
+    score = score + 1
+else:
+    print("Wrong Answer!")
+
+# Question 3
+print("\nQuestion 3")
+print("How many times will the following loop execute?")
+print("for i in range(3)")
+
+print("A. 2")
+print("B. 3")
+print("C. 4")
+print("D. 5")
+
+answer = input("Enter Your Answer: ")
+
+if answer == "B" or answer == "b":
+    print("Correct Answer!")
+    score = score + 1
+else:
+    print("Wrong Answer!")
+
+# Display Result
+print("\nYour Score:", score, "/3")
+
+# Exit Message
+print("\nThank you for using the Quiz System!")
+
